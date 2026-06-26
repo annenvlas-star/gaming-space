@@ -1,1 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f6ff;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  background: #4a6cf7;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #3655d8;
+}
+
+.hidden {
+  display: none;
+}
+
+#words {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.word {
+  padding: 10px 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
 
